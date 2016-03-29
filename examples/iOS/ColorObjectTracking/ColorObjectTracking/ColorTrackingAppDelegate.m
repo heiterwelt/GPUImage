@@ -12,6 +12,7 @@
     
     colorTrackingViewController = [[ColorTrackingViewController alloc] initWithNibName:nil bundle:nil];
     [self.window addSubview:colorTrackingViewController.view];
+    self.window.rootViewController=colorTrackingViewController;
     
     [self.window makeKeyAndVisible];
     return YES;
